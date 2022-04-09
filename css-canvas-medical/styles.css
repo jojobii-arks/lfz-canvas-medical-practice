@@ -1,0 +1,44 @@
+* {
+	font-family: "Tiempos Headline", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+
+a,
+li,
+h4 {
+	font-family: Avenir, sans-serif;
+	font-weight: 500;
+}
+
+h4 {
+	text-transform: uppercase;
+}
+
+.bg-lightgray {
+	background-color: lightgray;
+}
+
+.bg-darkgray {
+	background-color: darkgray;
+}
+
+.color-white {
+	color: white;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	display: block;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
