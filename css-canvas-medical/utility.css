@@ -1,7 +1,12 @@
+/* ! LAYOUT */
 .container {
-	max-width: 900px;
+	max-width: 500px;
 	margin: 0 auto;
 	padding: 0 1.5rem;
+}
+
+.block {
+	display: block;
 }
 
 .row {
@@ -9,10 +14,31 @@
 	flex-wrap: wrap;
 }
 
+.justify-space-between {
+	justify-content: space-between;
+}
+
 .column-full {
 	flex-basis: 100%;
 }
 
 .column-half {
-	flex-basis: 50%;
+	flex-basis: 100%;
+}
+
+/* ! utility */
+
+.txt-center {
+	text-align: center;
+}
+
+/* ! media */
+
+@media screen and (min-width: 768px) {
+	.container {
+		max-width: 80vw;
+	}
+	.column-half {
+		flex-basis: 50%;
+	}
 }
