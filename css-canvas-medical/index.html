@@ -12,14 +12,14 @@
 </head>
 <body>
 
-<header>
+<header class="border-bottom">
   <div class="container">
     <header class="row justify-space-between">
       <div class="logo-container">
         <img src="images/logo-blue.svg" alt="Canvas Logo" />
       </div>
       <nav class="block">
-        <ul class="row">
+        <ul class="row full-height align-items-center gap-2rem nav-ul">
           <li><a href="">Product</a></li>
           <li><a href="">Implementation</a></li>
           <li><a href="">About Us</a></li>
@@ -33,8 +33,8 @@
 
 <body>
   <div>
-    <div class="row container">
-      <div class="column-full hero-image">
+    <div class="row container pad-y-sm">
+      <div class="container column-full hero-image pad-right pad-left-med pad-y-lg color-white">
         <h1>The EMR Reimagined for Primary Care</h1>
         <p>
           Can't remember the last time you talked with a patient without focusing
@@ -45,13 +45,13 @@
           designed for primary care providers with the help of primary care
           providers.
         </p>
-        <a class="get-started">Get Started</a>
+        <a class="btn-anchor get-started">Get Started</a>
       </div>
     </div>
   </div>
-  <div class="bg-lightgray txt-center">
+  <div class="bg-lightgray txt-center pad-y-lg">
     <div class="row container">
-      <div class="column-full">
+      <div class="column-full pad-x-half">
         <h2>Clinicians Prefer Canvas</h2>
         <p>
           Physician-owned primary care practices across the counter
@@ -59,7 +59,7 @@
         </p>
       </div>
       <div class="column-full">
-        <ul class="row">
+        <ul class="row flex-column gap-y-2rem pad-top-sm">
           <li class="column-half">Cascade Family Practice, Portland OR</li>
           <li class="column-half">Ward Medical Clinic, Bonifay FL</li>
           <li class="column-half">Temescal Creek Medicine, Oakland CA</li>
@@ -73,21 +73,23 @@
 </body>
 
 <footer>
-  <div>
-    <div class="row container">
+  <div class="border-top">
+    <div class="row container justify-space-between align-items-center">
       <div>
         <h2>Ready to learn more?</h2>
         <p>Schedule a private meeting now</p>
       </div>
       <div>
-        <a class="get-started">Get Started</a>
+        <a class="btn-anchor get-started">Get Started</a>
       </div>
     </div>
   </div>
-  <div class="bg-darkgray color-white">
-    <div class="row container">
+  <div class="bg-darkgray color-white pad-y-sm">
+    <div class="row container pad-y-sm">
       <div class="column-half">
-        <img src="images/logo-white.png" alt="Canvas Logo" />
+        <div class="footer-logo-container">
+          <img src="images/logo-white.png" alt="Canvas Logo" />
+        </div>
         <p>
           2307 Irving Street, Suite 228<br />
           San Francisco CA 94122<br />
@@ -99,14 +101,14 @@
         <div class="row">
           <div class="column-half">
             <h4>Company</h4>
-            <ul>
+            <ul class="row wrap-column gap-y-1rem">
               <li><a href="">About Us</a></li>
               <li><a href="">Blog</a></li>
             </ul>
           </div>
           <div class="column-half">
             <h4>Product</h4>
-            <ul>
+            <ul class="row wrap-column gap-y-1rem">
               <li><a href="">Product</a></li>
               <li><a href="">Implementation</a></li>
               <li><a href="">For Health Plans</a></li>
@@ -117,9 +119,9 @@
       </div>
     </div>
   </div>
-  <div>
+  <div class="privacy-footer pad-y-sm">
     <div class="container">
-      <ul class="row">
+      <ul class="row gap-2rem nav-ul">
         <li><a href="">Privacy & Terms</a></li>
         <li><a href="">Contact Us</a></li>
       </ul>
